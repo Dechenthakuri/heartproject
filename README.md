@@ -1,95 +1,50 @@
-# heartproject
-Model predicts whether the user is in risk to have a heart attack or not.
-
-
-💓 Heart Disease Risk Prediction App
+# 💓 Heart Disease Risk Prediction App
 
 This is a Streamlit web application that allows users to input health information and receive a prediction of their heart disease risk using a trained Logistic Regression model.
 
-🚀 Features
+**🔗 Live Demo:** [Click here to open the deployed app](https://your-deployed-streamlit-url.streamlit.app)
 
-Collects user input through a simple form
+---
 
-Applies Box-Cox transformation to skewed features
+## 🚀 Features
+- Collects user input through a simple form
+- Applies Box-Cox transformation to skewed features
+- Scales features using StandardScaler
+- Predicts risk using a trained logistic regression model
+- Displays probability of risk with a clear success/warning message
 
-Scales features using StandardScaler
+---
 
-Predicts risk using a trained logistic regression model
+```
+🛠 Technologies and Tools Used
+To bring this app to life, the following tools and libraries were used:
 
-Displays probability of risk with a clear success/warning message
+Tool / Library	Purpose
+Python	Core programming language
+Streamlit	To build the interactive web interface
+scikit-learn	For training the Logistic Regression model and scaling inputs
+pandas & numpy	For data handling and numerical operations
+pickle	To save and load the trained ML model and preprocessing tools
+Box-Cox Transformation	To normalize skewed data (oldpeak) for better model performance
+```
 
-📁 Files Included
+--- 
 
-File
+## 📁 Files Included
 
-Description
+| File                   | Description                                      |
+|------------------------|--------------------------------------------------|
+| `app.py`               | Main Streamlit application                       |
+| `heart_model.pkl`      | Trained logistic regression model                |
+| `scaler.pkl`           | StandardScaler used to scale input features      |
+| `oldpeak_lambda.pkl`   | Lambda value used in Box-Cox transformation      |
+| `requirements.txt`     | List of required Python packages                 |
 
-app.py
+---
 
-Main Streamlit application
+## 🛠 How to Run Locally
 
-heart_model.pkl
-
-Trained logistic regression model
-
-scaler.pkl
-
-StandardScaler used to scale input features
-
-oldpeak_lambda.pkl
-
-Lambda value used in Box-Cox transformation
-
-requirements.txt
-
-List of required Python packages
-
-🛠 How to Run Locally
-
-Clone the repo
-
-git clone https://github.com/yourusername/heart-disease-predictor.git
-cd heart-disease-predictor
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the app
-
-streamlit run app.py
-
-🌐 How to Deploy on Streamlit Cloud
-
-Push your files to a public GitHub repo
-
-Go to streamlit.io/cloud
-
-Click "New app" and connect your repo
-
-Set the app file path to app.py
-
-Deploy and share the public link
-
-📊 Model Info
-
-Algorithm: Logistic Regression
-
-Target: 0 = Not at Risk, 1 = At Risk
-
-Evaluation Metric: Accuracy and AUC Score
-
-👩‍💻 Built With
-
-Python 🐍
-
-Scikit-learn 🤖
-
-Pandas & NumPy 📊
-
-Streamlit 🌐
-
-📬 Contact
-
-Created by Dechen Thakuri. Feel free to reach out for feedback or collaboration!
-
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/heart-disease-predictor.git
+   cd heart-disease-predictor
