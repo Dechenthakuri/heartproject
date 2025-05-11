@@ -16,16 +16,16 @@ This is a Streamlit web application that allows users to input health informatio
 ---
 
 ```
-🛠 Technologies and Tools Used
+### 🛠 Technologies and Tools Used
 To bring this app to life, the following tools and libraries were used:
 
 Tool / Library	Purpose
 Python	Core programming language
-Streamlit	To build the interactive web interface
-scikit-learn	For training the Logistic Regression model and scaling inputs
-pandas & numpy	For data handling and numerical operations
-pickle	To save and load the trained ML model and preprocessing tools
-Box-Cox Transformation	To normalize skewed data (oldpeak) for better model performance
+Streamlit	-> To build the interactive web interface
+scikit-learn	->For training the Logistic Regression model and scaling inputs
+pandas & numpy	-> For data handling and numerical operations
+pickle	-> To save and load the trained ML model and preprocessing tools
+Box-Cox Transformation	-> To normalize skewed data (oldpeak) for better model performance
 ```
 
 --- 
