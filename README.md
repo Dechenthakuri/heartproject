@@ -2,7 +2,8 @@
 
 This is a Streamlit web application that allows users to input health information and receive a prediction of their heart disease risk using a trained Logistic Regression model.
 
-**🔗 Live Demo:** [Click here to open the deployed app]([https://your-deployed-streamlit-url.streamlit.app](https://heartproject-uyihlyyaxvhnwsmrtj8ksv.streamlit.app/))
+**🔗 Live Demo:** 🔗 [Click here to use the Heart Disease Risk Prediction App](https://heartproject-uyihlyyaxvhnwsmrtj8ksv.streamlit.app/)
+
 
  
 ---
